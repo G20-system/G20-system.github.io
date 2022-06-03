@@ -1,5 +1,39 @@
+@font-face {
+  font-family: Canterbury;
+  src: url("/media/Canterbury.ttf");
+}
 body {
-  background-color: white;
+  background-image: url("/media/bg_image.jpg");
+  font-family: Canterbury;
+}
+
+button {
+  background-color: #00000064;
+  margin-right: 2vw;
+  border: none;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+#sheet #auxCounter {
+  width: 20vw;
+  float: left;
+  font-size: 1.5em;
+}
+#sheet #charnameBox {
+  width: 20vw;
+  float: left;
+}
+#sheet #hpBox {
+  width: 20vw;
+  float: left;
+}
+#sheet #armorBox {
+  width: 20vw;
+  float: left;
+}
+#sheet hr {
+  width: 100vw !important;
 }
 
 .subGrid {
@@ -8,10 +42,74 @@ body {
   padding: 0px;
   float: left;
 }
+.subGrid p {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  margin-top: 5px !important;
+  font-size: 1.2em;
+}
+.subGrid .seler {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  background-color: rgba(0, 0, 0, 0.208);
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
 
 #footer {
   width: 100vw !important;
   text-align: center;
   display: block;
   float: right;
+}
+
+.featDiv {
+  margin-top: 40px;
+  width: 15vw;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  float: left;
+  background-color: gray;
+}
+.featDiv input {
+  width: 13vw;
+}
+
+.fInfo {
+  height: 400px !important;
+  width: 14vw textarea;
+}
+
+.fName {
+  width: 100%;
+  font-size: 0.7em;
+}
+
+.featDivAlt {
+  margin-top: 40px;
+  width: 15vw;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  float: left;
+  background-color: green;
+}
+.featDivAlt input {
+  width: 13vw;
+}
+
+.featDivStory {
+  background-color: red;
+  text-align: center;
+}
+
+.featDivStoryAlt {
+  background-color: orange;
+  text-align: center;
+}
+
+#content {
+  text-align: left;
 }
